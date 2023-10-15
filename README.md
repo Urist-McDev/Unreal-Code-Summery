@@ -41,4 +41,32 @@ In this story I created various menu's for the game. This proved to be much easi
 
 The graph for the main menu. All the other screens had simular functions, though this one is the most complicated.
 
-![main menu graph](mainmenugraph.png)
+![main menu graph](images/mainmenugraph.png)
+
+## Story 5: Complete Gameplay
+This story saw me finish out the last elements of gameplay. I added the victory collectable and added two spells for the player character. A firebolt and a push spell. The firebolt was pretty simple, but the push was much harder.
+A major issue that came up in the next story with the push spell was when an enemy was moving, it wouldn't work. I eventually figured out it was due to the enemy AI moving against the push, requreing the enemy to be stopped for the push.
+
+Firebolt graph
+![firebolt graph](images/fireboltgraph.png)
+
+Push spell graph
+![push graph](images/pushgraph.png)
+
+## Story 6: Enemy AI
+In this story, I worked on making the enemies functional. First, this involved getting a character made. I got an asset pack off the market place with some skeletal meshes and animations for them to use for my enemies.
+Putting together the acutall viewport model wasn't super hard. Just added the skeletal mesh and made a quick and dirty 1D animation blend for a walk/run animation. I also created a quick animontage for an attack.
+Instead of using a more complex behavior tree, I stuck with just using the BP system, as I didn't need the enemies to be complicated. They just needed to follow the player when spotted and attack when they got close.
+
+Enemy graph
+![enemy graph](images/enemygraph)
+
+## Story 7: Add SFX
+This story was very simple and stright forward. Looking on the previous graphs, it can be seen that I added several sound effects, some from a free pack on the market place and some from the starter kit.
+I also added some background music via a music cue.
+
+## Skills Learned
+- How to work by myself. The instuctors were avilable if I got really stuck, but most of the time I had to look things up myself. The terrain painting and foliage painter were both examples of things I had to learn myself.
+- How to make a game in Unreal from start to finish using the BP system.
+- How the SCRUM mehtod of project management works.
+- The many features of Unreal. I had used Unity before, and it was the engine I was most familar with. Having seen the tools and power of Unreal 5, I have to say that I've found a new favorite.
