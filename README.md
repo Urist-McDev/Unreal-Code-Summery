@@ -34,7 +34,7 @@ Mana potion graph
 ![Mana potion graph](images/manapotiongraph.PNG)
 
 Gate graph
-![gate graph](images/gategraph.PNG)
+![gate graph](images/gategraph.png)
 
 ## Story 4: Menus
 In this story I created various menu's for the game. This proved to be much easier than previous engines I've used. A simple widget and a blank level was all I needed to add a main menu, how to play, game over, and victory screens.
